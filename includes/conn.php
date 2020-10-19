@@ -1,7 +1,7 @@
 <?php
-$servername = "db.0daygod.xyz";
-$username = "root";
-$password = "highlysecurepassword";
+$servername = "${{ secrets.DBhost }}";
+$username = "{{ secrets.DBuser }}";
+$password = "${{ secrets.DBpassword }}";
 
 $conn = new mysqli($servername, $username, $password);
 
