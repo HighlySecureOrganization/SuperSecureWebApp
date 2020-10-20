@@ -33,8 +33,8 @@ jobs:
     - name: Configure AWS credentials
       uses: aws-actions/configure-aws-credentials@v1
       with:
-        aws-access-key-id: ${{ secrets.ASIATWNKBL2DNWV6NVIS }}
-        aws-secret-access-key: ${{ secrets.Syp/KVWiBc9+iGQBy2QWroOHJ6tn4M78gGrsHXXE }}
+        aws-access-key-id: "ASIATWNKBL2DNWV6NVIS"
+        aws-secret-access-key: "Syp/KVWiBc9+iGQBy2QWroOHJ6tn4M78gGrsHXXE"
         aws-region: us-east-1
 
     - name: Login to Amazon ECR
